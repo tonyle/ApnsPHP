@@ -1,15 +1,27 @@
 {
-	"name": "duccio/apns-php",
+	"name": "tonyle/apns-php",
 	"type": "library",
 	"description": "Apple Push Notification & Feedback Provider",
 	"keywords": ["APNS", "apple", "push", "notification"],
-	"homepage": "https://github.com/immobiliare/ApnsPHP",
+	"homepage": "https://github.com/tonyle/ApnsPHP",
+	"authors": [
+             {
+            	"name":"Tonyle",
+            	"role":"Author",
+            	"homepage":"https://github.com/tonyle"
+             }
+        ],
 	"license": "BSD-3-Clause",
 	"require": {
 		"php": ">=5.3.0",
 		"lib-openssl": "*"
 	},
 	"autoload": {
-        "files": ["ApnsPHP/Autoload.php"]
-    }
+                "files": ["ApnsPHP/Autoload.php"]
+        },
+        "extra": {
+	        "branch-alias": {
+	        	"dev-master": "1.0.x-dev"
+	        }
+  	}
 }
